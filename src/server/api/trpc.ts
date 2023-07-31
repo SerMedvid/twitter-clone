@@ -23,6 +23,7 @@ import { prisma } from "@/server/db";
  * These allow you to access things when processing a request, like the database, the session, etc.
  */
 
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 interface CreateContextOptions {
   session: Session | null;
   revalidateSSG:
